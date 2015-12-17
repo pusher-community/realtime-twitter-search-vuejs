@@ -2,10 +2,33 @@
 <html>
   <head>
     <title>Vue Twitter Streaming</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/all-the-things.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-  <body>
+  <body class="blue-gradient-background">
+    <div class="navbar navbar-inverse navbar-default" role="navigation">
+      <div class="container navbar-container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="/">
+              <img class="full-logo" src="img/pusher-logo.png" width="111" height="37" />
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a class="signup-link" href="https://pusher.com/signup">Create a Free Account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div id="app">
-      {{ message }}
       <app-component></app-component>
     </div>
     <script src="bundle.js"></script>

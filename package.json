@@ -19,6 +19,7 @@
     "webpack": "^1.12.9"
   },
   "dependencies": {
+    "pusher-js": "^3.0.0",
     "vue": "^1.0.11"
   }
 }
